@@ -1,11 +1,11 @@
 import React from "react";
-import TabsWithIcons from "./components/Nav/Nav";
+import NavSection from "./components/Nav/Nav";
 
 
 
 function App () {
   return (
-     <TabsWithIcons/>
+     <NavSection/>
     );
   
 }
