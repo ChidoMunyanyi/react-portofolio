@@ -1,6 +1,7 @@
 import React from "react";
 import Intro from "../AboutMe/aboutme";
-import { Box, Tab, Tabs } from 'grommet';
+import Portofolio from "../Portofolio/portofolio"
+import { Grid, Box, Tab, Tabs } from 'grommet';
 import { Contact, Emoji, Projects } from 'grommet-icons';
 
 const NavSection= () => (
@@ -11,7 +12,8 @@ const NavSection= () => (
         <Intro/>
       </Tab>
       <Tab title="Portofolio" icon={<Projects />}>
-        <Box margin="small">Coming Soon</Box>
+        
+        <Grid ><Portofolio/></Grid>
       </Tab>
       <Tab title="Contact Me" icon={<Contact />}>
         <Box margin="small">Coming Soon</Box>

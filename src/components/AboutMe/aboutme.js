@@ -1,6 +1,6 @@
 import React from "react";
 
-import { PageHeader, Page, PageContent, Avatar } from 'grommet';
+import { PageHeader, Page, PageContent } from 'grommet';
 
  const Intro = () => (
   
